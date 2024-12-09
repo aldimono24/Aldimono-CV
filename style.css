@@ -1,0 +1,159 @@
+body {
+  font-family: "Hanken Grotesk", Helvetica, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #575757;
+}
+
+.container {
+  background-color: #f7f7f7;
+  width: 920px;
+  margin: auto;
+}
+
+/* Header */
+.header {
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 4px solid #6f7072;
+}
+
+#aldi-pramono-img {
+  width: 90px;
+  height: 120px;
+  padding: 5px;
+  margin-right: 30px;
+  border-radius: 10%;
+}
+.title-name {
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+.title-sub {
+  font-size: 23px;
+  margin-top: 5px;
+}
+
+/* Content */
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.h1x {
+  padding: 0px 12px 12px 12px;
+}
+.h2-title {
+  font-weight: 800;
+  border-bottom: 2px solid #575757;
+  margin-top: 5px;
+}
+
+/* Left Side */
+.left-side {
+  width: 350px;
+  background-color: #f0f0f0;
+}
+/* Biodata */
+.bio-data {
+  text-align: left;
+  vertical-align: top;
+}
+.bio1 {
+  text-align: left;
+  vertical-align: top;
+  width: 105px;
+}
+/* Kontak */
+#icon {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  align-content: space-between;
+  padding: 8px 25px;
+  margin-left: 0;
+}
+/* Keahlian */
+.keahlian-data {
+  width: 340px;
+  padding: 0 0 0 5px;
+  line-height: 15px;
+  font-size: 13px;
+}
+/* Pendidikan */
+.pendidikan-data {
+  width: 330px;
+  padding: 0 0 0 5px;
+  line-height: 15px;
+  font-size: 13px;
+  margin-top: 25px;
+}
+h4 {
+  margin-top: -10px;
+}
+
+/* Bahasa 
+RENCANA mau nambah style estetik pengukuran*/
+
+/* Right Side */
+.right-side {
+  width: 620px;
+  padding-right: 5px;
+}
+
+/* Profil */
+.profil-data {
+  padding: 0 0 0 5px;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+/* PENGALAMAN ORGANISASI */
+.porg-1th {
+  margin: 0 0 0 -3px;
+  font-size: 21px;
+  font-weight: bold;
+  width: 430px;
+}
+.porg-1thr {
+  text-align: right;
+  font-size: 14px;
+  width: 270px;
+  padding: 0;
+}
+.porg-2 {
+  margin: 0;
+  font-size: 16px;
+}
+.porg-3 {
+  line-height: 21px;
+}
+
+/* Pengalaman Kerja dan Kepanitian */
+.pkk-1x {
+  margin: 0 0 0 -3px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 370px;
+}
+.pkk-2x {
+  text-align: right;
+  font-size: 14px;
+  width: 270px;
+}
+.pkk-3x {
+  margin: 0 0 0 -3px;
+  font-size: 14px;
+  width: 370px;
+}
+.pkk-tb {
+  margin-bottom: 10px;
+}
+.pkk-1xt {
+  text-align: start;
+}
